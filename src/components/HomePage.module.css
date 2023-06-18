@@ -1,0 +1,57 @@
+.containerStyles {
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-image: url('../s.jpeg');
+  background-clip: border-box;
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+}
+
+.titleStyles {
+  font-size: 60px;
+  margin-bottom: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.subtitleStyles {
+  font-size: 28px;
+  margin-bottom: 40px;
+  font-weight: normal;
+}
+
+.ctaButtonStyles {
+  padding: 12px 24px;
+  font-size: 18px;
+  background-color: transparent;
+  color: #fff;
+  border: 2px solid #fff;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.ctaButtonStyles:hover {
+  background-color: #fff;
+  color: #007bff;
+}
+
+.pictureContainer {
+  width: 80%;
+  border: 10px solid #000;
+  border-radius: 4px;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+.pictureContainer img {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
+}
